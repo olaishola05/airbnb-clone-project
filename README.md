@@ -83,3 +83,18 @@ The database design for the Airbnb Clone Project is crucial for ensuring data in
 
 - Integrate with a payment gateway for processing transactions.
 - Implement payment confirmation and receipt generation.
+
+### Search and Filter
+
+- Implement search functionality for properties based on location, price, and availability.
+- Allow users to filter properties by amenities, ratings, and other criteria.
+
+## API Security
+
+- **Authentication**: Use JWT tokens for secure user authentication.
+- **Authorization**: Implement role-based access control (RBAC) to restrict access to sensitive endpoints.
+- **Rate Limiting**: Apply rate limiting to prevent abuse of the API and protect against DDoS attacks.
+- **Data Validation**: Ensure all input data is validated to prevent SQL injection and other attacks.
+- **HTTPS**: Enforce HTTPS to secure data in transit.
+- **CORS**: Configure Cross-Origin Resource Sharing (CORS) to control which domains can access the API.
+- **Logging and Monitoring**: Implement logging for API requests and errors, and set up monitoring to detect anomalies.
